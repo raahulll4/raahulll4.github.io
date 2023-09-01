@@ -95,11 +95,15 @@ nav ul li {
   font-weight: var(--bold-font);
 }
 
+/* .navigation {
+  background-color: #C44900;
+} */
+
 .burger-menu {
   color: #efd6ac;
   font-size: 2rem;
   border: 0;
-  background-color: transparent;
+  background-color: #C44900;
   cursor: pointer;
   display: none;
 }
@@ -400,11 +404,11 @@ footer {
   }
   nav ul {
     position: fixed;
-    background-color: var(--bg-color);
+    background-color: #C44900;
     flex-direction: column;
     top: 86px;
-    left: 10%;
-    width: 80%;
+
+    width: 90%;
     text-align: center;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
